@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Large model weights / caches / DBs
+.cache/
+*.chroma/
+travelmate_rag_db/
+*.log
